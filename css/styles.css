@@ -76,7 +76,7 @@ a:hover {
 }
 
 .bio-pic {
-  max-width: 60%;
+  max-width: 100%;
   margin: 3em 0.5em 2em;
 }
 
@@ -167,6 +167,7 @@ figcaption {
   .name {
     padding-top: 30px;
     margin-top: 0;
+    line-height: 1.5;
   }
 
   .top-navbar li {
