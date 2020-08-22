@@ -26,7 +26,7 @@ h2 {
 }
 
 h3 {
-  color: black;
+  color: rgb(119, 12, 12);
   font-size: 1.0em;
   margin-top: 5px;
   margin-bottom: 15px;
@@ -134,7 +134,7 @@ figcaption {
 
 .mobile h2 {
   display: inline-block;
-  color: rgb(0, 32, 34);
+  color: rgb(10, 75, 80);
   padding-right: 50%;
 }
 
@@ -230,7 +230,7 @@ figcaption {
 
   .desktop {
     display: block;
-    background-color: #0d4970;
+    background-color: #0d4063;
     padding-bottom: 30px;
     max-width: 100%;
     border-top: 1px solid grey;
