@@ -90,13 +90,14 @@ a:hover {
   text-align: center;
   width: 85%;
   margin: 5% 5%;
+  padding-left: 1rem;;
 }
 
 img {
   width: 100%;
   max-width: 100%;
   padding-left: 1em;
-  padding-right: 1em;
+  padding-right: 2em;
 }
 
 .container {
@@ -193,8 +194,9 @@ figcaption {
 
   .bio-pic {
     float: right;
-    width: 40%;
+    width: 100%;
     margin-top: 0;
+    
   }
 
   .bio p {
@@ -219,9 +221,8 @@ figcaption {
   }
 
   .assets-img {
-    margin-left: 15%;
+    margin-left: 20%;
     width: 70%;
-    margin-left: 30px;
   }
 
 
@@ -342,7 +343,9 @@ figcaption {
   }
 
   .assets-img {
-    margin-right: 15%
+    margin-right: 15%;
+    width: 360px;
+    
   }
 
   
