@@ -4,13 +4,13 @@
 }
 
 body {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   line-height: 1.6;
   background-color: rgb(52, 145, 173);
 }
 
 h1 {
-  font-family: Verdana, sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 1.75em;
   color: black;
   ;
@@ -42,7 +42,7 @@ a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  color: grey;
+  color:rgb(105, 97, 97);
   font-weight: 700;
 }
 
@@ -56,7 +56,8 @@ a:hover {
 
 .top-nav {
   background-color: #0d4970;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid red;
+  ;
 }
 
 .top-nav ul {
@@ -92,6 +93,7 @@ img {
   width: 100%;
 }
 
+
 .container {
   width: 100%; 
 }
@@ -120,7 +122,8 @@ figcaption {
 .mobile {
   background-color: #0d4970;
   max-width: 100%;
-  border-top: 1px solid grey;
+  border-top: 1px solid black;
+  ;
   font-size: .8em;
 }
 
@@ -130,7 +133,7 @@ figcaption {
 
 .mobile h2 {
   display: inline-block;
-  color: red;
+  color:rgb(105, 97, 97);
 }
 
 .email {
@@ -165,11 +168,12 @@ figcaption {
     padding-top: 30px;
     margin-top: 0;
     line-height: 1.5;
+    
   }
 
   .top-navbar li {
-    float: left;
-    margin-right: 20px;
+    display: inline-block;
+    padding-right: 20px;
   }
 
   /* main content */
@@ -184,8 +188,9 @@ figcaption {
 
   .col {
     min-height: 400px;
-    width: 45%;
+    width: 40%;
     padding: 0 0.5em;
+    
   }
 
   .bio-pic {
@@ -201,8 +206,6 @@ figcaption {
     padding-top: 50px;
     
   }
-
-
 
   .bio-text {
     text-align: center;
@@ -222,7 +225,7 @@ figcaption {
 
   .assets-container {
     padding-left: 30%;
-    Padding-right: 30%;
+    padding-right: 30%;
   }
 
   .assets-img {
@@ -233,16 +236,17 @@ figcaption {
 
   /* footer */
   .mobile666 {
-    display: none;
+    display: inline-block;
   }
 
   .desktop {
     display: block;
-    background-color: #0d4063;
-    padding-bottom: 30px;
+    background-color: #26292b;
+    padding-bottom: 10px;
     max-width: 100%;
-    border-top: 1px solid grey;
-    font-size: .8em;
+    border-top: 1px solid black;
+    
+    font-size: 1em;
   }
 
   .email {
@@ -259,9 +263,11 @@ figcaption {
 
   .bottom-nav ul {
     float: right;
+    
   }
 
   .bottom-nav li {
+    
     float: left;
     text-align: right;
     list-style-type: none;
@@ -269,6 +275,7 @@ figcaption {
     line-height: 1.75;
     padding-right: 1.5em;
     margin-top: 1.5em;
+    
   }
 
 
@@ -336,6 +343,7 @@ figcaption {
 
   .col {
     width: 29%;
+    padding-left: 60px;
   }
 
   .marketing,
@@ -358,9 +366,6 @@ figcaption {
      width: 50%;
     
   }
-
-  
-
 
   /*  Float clearfix  */
 
